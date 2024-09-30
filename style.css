@@ -7,7 +7,11 @@
     background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%) !important;
 
 }
-
+.newsletter-section {
+    background: linear-gradient(to right, #cce4e1, #eecba8);
+    padding: 50px 0;
+    text-align: center;
+  }
 @media (max-width: 991px){
     .navbar{
     border-radius: 0 !important;
