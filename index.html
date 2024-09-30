@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Building website</title>
     <!-- Bootstrap css -->
 
     <link
@@ -49,37 +49,37 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 mx-auto gap-3 d-flex">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Agents</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Listings</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <img src="" alt="" />
+                  <img src="assets/search-normal.svg" alt="" />
                 </a>
               </li>
             </ul>
 
             <div class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Other services</a>
               </li>
               <li class="nav-item">
                 <button
                   type="button"
                   class="btn btn-outline-secondary rounded-pill"
                 >
-                  Secondary
+                  Contact us
                 </button>
               </li>
             </div>
@@ -214,52 +214,64 @@
 
 <!-- Hero Section -->
 <section class="hero-section py-5 text-center">
-  <div class="container">
-    <h1 class="fw-bold">We are a global, boutique real estate brokerage</h1>
-    <div class="row mt-5">
+  <div class="container-xxl">
+    <h1 class="fw-bolder w-75 text-center">We are a global, boutique real estate brokerage</h1>
+    <div class="row mt-5 pt-4">
       <div class="col-md-6 text-md-start">
-        <h3>The transfer of real estate</h3>
-        <p>Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing augue...</p>
+        <h3 class="fw-bolder">The transfer of real estate</h3>
+        <p class="w-75 p-2">Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing augue...</p>
         <a href="#" class="btn btn-dark rounded-pill me-2">Book Now!</a>
         <a href="#" class="btn btn-outline-secondary rounded-pill">Read More</a>
+        <div class="row mt-5 pt-5">
+          <div class="col-md-4">
+            <h4 class="fw-bold">12+</h4>
+            <p>Customers</p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="fw-bold">14+</h4>
+            <p>Offices</p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="fw-bold">10+</h4>
+            <p>Students</p>
+          </div>
+        </div>
       </div>
       <div class="col-md-6">
-        <img src="your-image-path.jpg" class="img-fluid rounded" alt="Real estate image">
+        <img src="assets/p1.png" class="img-fluid rounded" alt="Real estate image">
       </div>
     </div>
 
-    <div class="row mt-5">
-      <div class="col-md-4">
-        <h4>12+</h4>
-        <p>Customers</p>
-      </div>
-      <div class="col-md-4">
-        <h4>14+</h4>
-        <p>Offices</p>
-      </div>
-      <div class="col-md-4">
-        <h4>10+</h4>
-        <p>Students</p>
-      </div>
-    </div>
+  
   </div>
 </section>
 
 <!-- Newsletter Section -->
-<section class="newsletter-section">
-  <div class="container">
-    <h2 class="fw-bold">Subscribe Our Newsletter</h2>
-    <p>Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin...</p>
-    
-    <!-- Input Group for Email and Button -->
-    <div class="input-group mt-4 mx-auto" style="max-width: 600px;">
-      <input type="email" class="form-control rounded-pill border-end-0" placeholder="Enter your email">
-      <button class="btn btn-dark rounded-pill px-4">Get a Quote</button>
-    </div>
+<div
+class="newsletter container-xxl  rounded  d-flex flex-column flex-lg-row align-items-center justify-content-between"
+>
+<div
+  class="content  p-sm-2  d-flex flex-column ps-lg-3"
+  style="max-width: 550px"
+>
+<h2 class="fw-bold">Subscribe Our Newsletter</h2>
+<p class="p-1">Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin...</p>
 
-    <img src="assets/endhouse.png" class="img-fluid mt-4" alt="House model image" style="max-width: 300px;">
+
+  <div class="input-group mb-3 pt-2">
+    <input type="text" class="form-control rounded-start-pill py-sm-3" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn  btn-dark btn-lg rounded-pill fs-6
+     py-sm-3" style="right: 20px;" type="button" id="button-addon2">Get a Quote</button>
   </div>
-</section>
+</div>
+
+<img
+  src="assets/endhouse.png"
+  class="w-50 p-2  position-relative"
+  style="min-width: 300px; max-width: 650px; top: 60px"
+  alt=""
+/>
+</div>
 <!-- image fluid to another card image -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
